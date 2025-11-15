@@ -19,16 +19,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#educacion">Educación</a>
+                    <a class="nav-link text-white border-bottom border-0 border-white border-2-hover" href="#educacion">Educación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                    <a class="nav-link text-white border-bottom border-0 border-white border-2-hover" href="#habilidades">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                    <a class="nav-link text-white border-bottom border-0 border-white border-2-hover" href="#proyectos">Proyectos</a>
                 </li>
             </ul>
         </div>
@@ -47,8 +47,9 @@
                 Disfruto colaborar, compartir conocimientos y aportar valor en cada proyecto que realizo.
             </p>
             <div class="mt-4">
-                <button class="btn btn-white me-2">Descargar CV</button>
-                <button class="btn btn-white">Contáctame</button>
+                <a href="https://drive.google.com/file/d/1m9X8_qTuyWI93fZm30qW0i6tGvqS2SXL/view?usp=sharing" class="btn btn-white me-2" target="_blank" download>
+                    <i class="bi bi-download me-2"></i>Descargar CV
+                </a>
             </div>
         </div>
 
@@ -58,7 +59,7 @@
     </div>
 </div>
 
-<div class="container-fluid p-0" style="background-color: #CCD0CF;">
+<div class="container-fluid p-0 bg-light" >
     <div class="container py-4">
         <div class="d-flex justify-content-center align-items-center gap-5 flex-wrap">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50" height="50">
@@ -136,8 +137,9 @@
 
                     <div id="voluntariado" class="accordion-collapse collapse">
                         <div class="accordion-body" style="color: #CCD0CF;">
+                            <p class="text-secondary">Fundación Salvador del Mundo (FUSALMO)</p>
                             <p>
-                                Participación en proyectos sociales, apoyo educativo, liderazgo juvenil y actividades comunitarias.
+                                Apoyo al profesor principal en la enseñanza de conceptos básicos y avanzados de robótica a estudiantes jóvenes, fomentando su interés y comprensión en ciencia, tecnología, ingeniería y matemáticas (STEM).
                             </p>
                         </div>
                     </div>
@@ -153,8 +155,9 @@
 
                     <div id="experiencia" class="accordion-collapse collapse">
                         <div class="accordion-body" style="color: #CCD0CF;">
+                            <p class="text-secondary">Practicante - Universidad de Oriente</p>
                             <p>
-                                Proyectos escolares, prácticas, trabajos freelance o actividades técnicas realizadas.
+                                Brindo prácticas a estudiantes de años inferiores en la universidad, reforzando los temas vistos en clase y ayudándoles a comprender mejor los contenidos mediante ejercicios y acompañamiento personalizado.
                             </p>
                         </div>
                     </div>
@@ -196,6 +199,8 @@
                     <span class="badge bg-primary">CSS</span>
                     <span class="badge bg-primary">JavaScript</span>
                     <span class="badge bg-primary">Bootstrap</span>
+                    <span class="badge bg-primary">Figma</span>
+                    <span class="badge bg-primary">Tailwind</span>
                 </div>
             </div>
             
@@ -258,68 +263,69 @@
     </div>
 </div>
 
-<!-- Sección Proyectos -->
 <div class="container py-5" id="proyectos">
     <h2 class="section-title mb-5" id="proyectos" style="color: #CCD0CF;">Proyectos Destacados</h2>
     
     <div class="row g-4">
-        <!-- Proyecto 1 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100  text-white border-0" style="background-color: #243644;">
-                <img src="./assets/img/proyecto1.jpg" class="card-img-top img-equipo" alt="Proyecto 1">
+                <img src="/assets/img/futureCode.jpeg" class="card-img-top img-equipo" alt="Proyecto 1">
                 <div class="card-body">
-                    <h5 class="card-title">Sistema de Gestión</h5>
-                    <p class="card-text">Sistema web para gestión de inventarios desarrollado con Node.js y MySQL.</p>
+                    <h5 class="card-title">Rodmap con IA</h5>
+                    <p class="card-text">Pagina Web especializada en consumir una API REST, que te ayudara a hacer un rodmap personalizado de temas de programcion, atraves de IA Gemeni, con quiz podras guardar tu rodmap y tener videos disponibles de cada modulo.</p>
                     <div class="d-flex flex-wrap gap-2 mb-3">
                         <span class="badge bg-primary">Node.js</span>
-                        <span class="badge bg-primary">MySQL</span>
-                        <span class="badge bg-primary">Bootstrap</span>
+                        <span class="badge bg-primary">MongoDB</span>
+                        <span class="badge bg-primary">Gemeni</span>
+                        <span class="badge bg-primary">JavaScript</span>
+                        <span class="badge bg-primary">Vite</span>
+                        <span class="badge bg-primary">Tailwind</span>
                     </div>
                 </div>
                 <div class="card-footer bg-transparent border-0">
-                    <a href="https://github.com/tu-usuario/proyecto1" class="btn btn-outline-primary w-100" target="_blank">
+                    <a href="https://github.com/melissaraujo00/APIBackend.git" class="btn btn-outline-primary w-100" target="_blank">
                         <i class="bi bi-github me-2"></i>Ver en GitHub
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- Proyecto 2 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100 text-white border-0" style="background-color: #243644;">
-                <img src="./assets/img/proyecto2.jpg" class="card-img-top img-equipo" alt="Proyecto 2">
+                <img src="/assets/img/materialesTrinidad.png" class="card-img-top img-equipo" alt="Proyecto 2">
                 <div class="card-body">
-                    <h5 class="card-title">API REST</h5>
-                    <p class="card-text">API RESTful para aplicación móvil con autenticación JWT y documentación Swagger.</p>
+                    <h5 class="card-title">Sistema de Ferreteria</h5>
+                    <p class="card-text">Sistemas que incluyen módulos de inventarios, gestión de roles y permisos, administración de clientes, generación de cotizaciones, procesos de venta y facturación. Cada componente está diseñado para optimizar el flujo de trabajo, mejorar el control de la información y facilitar la operación completa del negocio de manera eficiente.</p>
                     <div class="d-flex flex-wrap gap-2 mb-3">
-                        <span class="badge bg-primary">Express.js</span>
-                        <span class="badge bg-primary">MongoDB</span>
-                        <span class="badge bg-primary">JWT</span>
+                        <span class="badge bg-primary">Laravel</span>
+                        <span class="badge bg-primary">mysql</span>
+                        <span class="badge bg-primary">React</span>
+                        <span class="badge bg-primary">PHP</span>
                     </div>
                 </div>
                 <div class="card-footer bg-transparent border-0">
-                    <a href="https://github.com/tu-usuario/proyecto2" class="btn btn-outline-primary w-100" target="_blank">
+                    <a href="https://github.com/melissaraujo00/MaterialesTrinidad" class="btn btn-outline-primary w-100" target="_blank">
                         <i class="bi bi-github me-2"></i>Ver en GitHub
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- Proyecto 3 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100  text-white border-0" style="background-color: #243644;">
-                <img src="./assets/img/proyecto3.jpg" class="card-img-top img-equipo" alt="Proyecto 3">
+                <img src="/assets/img/elchurrasco.jpeg" class="card-img-top img-equipo" alt="Proyecto 3">
                 <div class="card-body">
-                    <h5 class="card-title">E-commerce</h5>
-                    <p class="card-text">Tienda online con carrito de compras y pasarela de pagos integrada.</p>
+                    <h5 class="card-title">Web Restaurante</h5>
+                    <p class="card-text">Restaurante en línea que incorpora un sistema de carrito de compras, inicio de sesión para usuarios y una interfaz intuitiva para realizar pedidos de forma rápida y segura. Incluye gestión de productos, control de pedidos y una experiencia fluida tanto para el cliente como para el administrador. </p>
                     <div class="d-flex flex-wrap gap-2 mb-3">
                         <span class="badge bg-primary">JavaScript</span>
                         <span class="badge bg-primary">HTML5</span>
-                        <span class="badge bg-primary">CSS</span>
+                        <span class="badge bg-primary">Vue</span>
+                        <span class="badge bg-primary">MongoDB</span>
                     </div>
                 </div>
                 <div class="card-footer bg-transparent border-0">
-                    <a href="https://github.com/tu-usuario/proyecto3" class="btn btn-outline-primary w-100" target="_blank">
+                    <a href="https://github.com/melissaraujo00/ElChurrascoVue.git" class="btn btn-outline-primary w-100" target="_blank">
                         <i class="bi bi-github me-2"></i>Ver en GitHub
                     </a>
                 </div>
@@ -331,7 +337,7 @@
 
 </main>
 
-<footer class="text-white py-4 mt-5" style="background-color: #485969;">
+<footer class="text-white py-4 mt-5" style="background-color: #243644;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -339,13 +345,13 @@
             </div>
             <div class="col-md-6 text-md-end">
                 <div class="d-flex justify-content-md-end gap-3">
-                    <a href="https://github.com/tu-usuario" class="text-white" target="_blank">
+                    <a href="https://github.com/melissaraujo00" class="text-white" target="_blank">
                         <i class="bi bi-github fs-4"></i>
                     </a>
-                    <a href="https://linkedin.com/in/tu-usuario" class="text-white" target="_blank">
+                    <a href="https://www.linkedin.com/in/melissa-araujo00/" class="text-white" target="_blank">
                         <i class="bi bi-linkedin fs-4"></i>
                     </a>
-                    <a href="mailto:tu-email@ejemplo.com" class="text-white">
+                    <a href="mailto:melissa.araujoo@outlook.com" class="text-white">
                         <i class="bi bi-envelope fs-4"></i>
                     </a>
                 </div>
