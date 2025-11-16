@@ -20,13 +20,13 @@ body {
     background-color: #0426587c;
 }
 .card-hover .social {
-  opacity: 0 !important;
-  transition: .3s;
+    opacity: 0 !important;
+    transition: .3s;
   z-index: 5; /* Para que aparezca encima de la imagen */
 }
 
 .card-hover:hover .social {
-  opacity: 1 !important;
+    opacity: 1 !important;
 }
 
 .img-equipo {
